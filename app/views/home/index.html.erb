@@ -1,0 +1,16 @@
+<h1>Hi I'm the index</h1>
+<h2>We use the Ubuntu webfont handled by Webpack</h2>
+
+<div id="multimedia">
+  <figure>
+    <%= image_pack_tag 'ombulabs.png' %>
+    <figcaption>This is a PNG image</figcaption>  
+  </figure>
+
+  <figure>
+    <%= image_pack_tag 'ombulabs.webp' %>
+    <figcaption>This is a WebP image</figcaption>
+  </figure>
+
+  <%= video_tag asset_pack_path('media/videos/ombulabs.mp4'),  preload: "auto", autoplay: "loop" %>
+</div>
